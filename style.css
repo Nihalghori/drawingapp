@@ -1,0 +1,59 @@
+.body{
+    margin: 0px;
+    padding: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    overflow: hidden;
+    background-color:rgb(223, 106, 106)
+}
+
+.tools{
+    display: flex;
+    left: 90px;
+    flex-direction: column;
+    margin-top: -550px;
+}
+h1{
+    position: absolute;
+    top : 3%;
+    left: 35%;
+    font-size: 50px;
+    text-decoration: underline;
+}
+.tools .color-field{
+    height: 40px;
+    width: 40px;
+    min-height: 40px;
+    min-width: 40px;
+    cursor: pointer;
+    display: inline-block;
+    box-sizing: border-box;
+    border-radius:50px;
+    border: 2px solid white;
+    align-self: flex-start;
+    margin: 15px 15px 15px ;
+}
+.tools .button{
+    align-self: flex-start;
+    width: 50px;
+    height: 40px;
+    border: 2px solid rgb(12, 12, 12);
+    cursor: pointer;
+    color: black;
+    font-weight: bold;
+    margin: 15px 15px 15px;
+}
+.color-picker{
+    align-self: flex-start;
+    margin: 0 15px;
+    height: 30px;
+}
+.pen-range{
+    align-self: flex-start;
+    margin: 15px 15px 15px;
+}
+#canvas{
+    box-shadow: -3px 2px 6px 9px black;
+    cursor: pointer;
+    background-color: black;
+}
+  
